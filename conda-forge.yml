@@ -3,7 +3,7 @@ build_platform:
   linux_ppc64le: linux_ppc64le
   linux_aarch64: linux_aarch64
   osx_64: osx_64
-  osx_arm64: osx_arm64
+  osx_arm64: osx_64
   win_64: win_64
 conda_forge_output_validation: true
 github:
