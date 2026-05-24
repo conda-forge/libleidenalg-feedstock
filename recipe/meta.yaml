@@ -1,5 +1,5 @@
 {% set name = "libleidenalg" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://github.com/vtraag/libleidenalg/archive/refs/tags/{{ version }}.tar.gz
-  sha256: b9d27b99586ba9b1f44d1899e94990e66ff4bf740086c4aed321590c1d4bf808
-  patches:
-    - 001-cmake-fix-link-libraries.patch
+  sha256: 134e33bf68222b301cf5fbe93b5a8af222f2910caac34b85e33afac6e9365d2a
 
 build:
   number: 0
